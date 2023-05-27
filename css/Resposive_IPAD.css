@@ -1,0 +1,71 @@
+@media (max-width: 1199px) and (min-width: 992px){/*IPAD HECHADO*/
+    section div.containerPartners {
+        padding: 13px 0px;
+    }
+    section div.containerPartners a img {
+        width: 248px;
+    }
+    section nav.panelNavegacion ul li a, section nav.panelNavegacion ul li.Search {
+        left: 68px;
+        margin-left: 10px;
+    }
+    section nav.panelNavegacion div#Parte1 ul li a button {
+        left: 90px;
+        bottom: 8px;
+        top: -1px;
+    }
+    section main div.containerFormAll div#wantedList nav ul li {
+        padding: 25px 123px;
+        font-weight: bold;
+    }
+    section main div.containerFormAll div#containerForm form input.Look-For {
+        margin-right: 92px;
+    }
+    section footer div#containerFooterAll div.socialNetworks div {
+        position: relative;
+        bottom: 19px;
+    }
+}
+/*Pantallas pequeñas, mayores a 768 a 991 (sm) ---> col-sm*/
+@media (max-width: 991px) and (min-width: 761px){/*IPAD NORMAL*/
+    section div.containerPartners {
+        padding: 6px 0px;
+    }
+    section div.containerPartners a img {
+        width: 206px;
+    }
+    section nav.panelNavegacion {
+        height: 82px;
+    }
+    section main div.containerFormAll div#wantedList nav ul li {
+        padding: 24px 123px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
+        width: 27.8%;
+        margin: 0px 9px;
+        padding: 10px;
+    }
+    section main div.containerFormAll div#containerForm form select {
+        margin: 0px 11px;
+    }
+    section main div.containerFormAll div#containerForm form input.Look-For {
+        margin-right: 16px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        padding: 57px 43px;
+    }
+    section main div.containerFormAll div#containerForm form label#Crime {
+        padding: 22px 2px;
+        margin-left: 40px;
+    }
+    section main div.containerFormAll div#containerForm {
+        height: 373px;
+    }
+    section main div.containerFormAll div#containerForm form input.Look-For {
+        padding: 6px 50px;
+    }
+    section footer div#containerFooterAll div.socialNetworks div {
+        position: relative;
+        bottom: 35px;
+    }
+}

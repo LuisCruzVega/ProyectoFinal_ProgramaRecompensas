@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: content-box;
+}
+section div.containerPartners{
+    display: flex;
+    width: 100%;
+    height: 52px;
+    background: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+section div.containerPartners a img{
+    width: 272px;
+}
+section nav.panelNavegacion{
+    width: 100%;
+    height: 80px;
+    background: #0b1944;
+    display: flex;
+    align-items: center;
+}
+section nav.panelNavegacion ul li a, section nav.panelNavegacion ul li.Search{
+    position: relative;
+    float: left;
+    left: 79px;
+    margin-left: 35px;
+    vertical-align: middle;
+    font-size: 16px; 
+    color: white;
+    font-weight: bold;
+}
+section nav.panelNavegacion div#Parte1{
+    width: 100%;
+}
+section nav.panelNavegacion div#Parte2{
+    width: 30%;
+}
+section nav.panelNavegacion div#Parte1 ul li input{
+    position: relative;
+    left: 17px;
+    width: 80%;
+    height: 25px;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+section nav.panelNavegacion div#Parte1 ul li a button{
+    position: absolute;
+    left: 62px;
+    bottom: 8px;
+    height: 23px;
+    border: none;
+    border-left: solid 1px #ccc;
+}
+section nav.panelNavegacion ul li a{
+    margin-top: 5px;
+    text-decoration: none;
+}
+section main div.containerFormAll{
+    width: 100%;
+    background-image: url("../img/Borde.jpg");
+    height: auto;
+    padding: 9px 0px;
+}
+section main div.containerFormAll div.empty{
+    margin-bottom: 20px;
+}
+section main div.containerFormAll div#wantedList{
+    background-image: url("../img/Background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section main div.containerFormAll div#containerForm{
+    background-image: url("../img/Background2.jpg");
+    height: 316px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom
+}
+section main div.containerFormAll div#wantedList nav ul li{
+    font-size: 32px;
+    padding: 26px 123px;
+    color:white;
+    font-weight: bold;
+}
+section main div.containerFormAll div.empty, section main div.containerFormAll div#containerForm {
+    margin-bottom: 25px;
+}
+section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition{
+    display: block;
+    color: white;
+    font-size: 20px;
+    width: 940px;
+    margin: 0px auto;
+    padding: 43px;
+}
+section main div.containerFormAll div#containerForm form label.department{
+    padding: 2px;
+}
+section main div.containerFormAll div#containerForm form select{
+    width: 22%;
+    font-size: 20px;
+    color: #7575A1;
+    margin: 0px 46px;
+    padding: 12px 0px;
+    border-radius: 5px;
+    border: none;
+}
+section main div.containerFormAll div#containerForm form select#Crime, section main div.containerFormAll div#containerForm form select#Sex{
+    width: 12%;
+}
+section main div.containerFormAll div#containerForm form label, section main div.containerFormAll div#containerForm form label input{
+    margin: 13px;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    width: 940px;
+    display: inline-flex;
+    font-size: 20px;
+    color: #7575A1;
+}
+section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch{
+    width: 32%;
+    margin: 0px 39px;
+}
+section main div.containerFormAll div#containerForm form input.Look-For{
+    margin-right: 235px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 76px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding: 10px;
+    color: white;
+    background: #dc3545;
+    border: #dc3545;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s background-color;
+    top: 15px;
+}
+section main div.containerFormAll div#containerForm form input.Look-For:hover{
+    background: #bb2d3b;
+    border: #b02a37;
+   
+}
+section footer div#containerFooterAll {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+section footer div#containerFooterAll div.safePhrase{
+    position: relative;
+    width: 70%;
+    display: inline-block;
+}
+section footer div#containerFooterAll div.safePhrase p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30.4px;
+    color: #0b1944;
+    padding: 0px 55px;
+}
+section footer div#containerFooterAll div.safePhrase a{
+    color: #e30613;
+    font-weight: bold;
+    text-decoration: none;
+}
+section footer div#containerFooterAll div.safePhrase span{
+    font-size:24px;
+    font-weight: bold; 
+}
+section footer div#containerFooterAll div.safePhrase input{
+    display: none;
+}
+section footer div#containerFooterAll div.socialNetworks{
+    position: relative;
+    width: 29%;
+    display: inline-flex;
+    justify-content: center;
+}
+section footer div#containerFooterAll div.socialNetworks div{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin: 28px 8px;
+}
+section footer div#containerFooterAll div.socialNetworks div img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+section footer div#containerFooterAll div.safePhrase p span.Protection{
+    font-family:  'Barlow Condensed', sans-serif;
+    font-size:24px;
+    font-weight: bold;
+}

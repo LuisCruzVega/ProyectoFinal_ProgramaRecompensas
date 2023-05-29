@@ -82,9 +82,10 @@
     }
     section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
         width: 100%;
-        margin: 0px auto;
+        margin: 3px auto;
         padding: 42px;
+        left: 120px;
+        position: relative;
     }
    
 }
-

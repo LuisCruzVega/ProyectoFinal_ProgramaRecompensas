@@ -57,5 +57,22 @@
     }
 }
 @media (max-width: 1080px) and (orientation: landscape) { /*Honor x8 -- cel hechado*/
-
+    section div.containerPartners, section nav.panelNavegacion{
+        display: none;
+    }
+    section main div.containerFormAll {
+        width: 1026px;
+    }
+    section main div.containerFormAll div#wantedList nav ul li {
+        font-size: 24.44px;
+        padding: 14px 50px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        display: inline-grid;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
+        width: 85%;
+        margin: 55px 0px;
+        padding: 8px 12px;
+    }
 }

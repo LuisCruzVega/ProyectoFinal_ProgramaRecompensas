@@ -56,7 +56,7 @@
         left: 26%;
     }
 }
-@media (max-width: 900px) and (orientation: landscape) { /*Honor x8 -- cel hechado*/
+@media (max-width: 766px) and (orientation: landscape) { /*Honor x8 -- cel hechado*/
     section div.containerPartners, section nav.panelNavegacion{
         display: none;
     }

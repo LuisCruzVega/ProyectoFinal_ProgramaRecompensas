@@ -18,6 +18,7 @@
         height: 720px;
     }
     section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        width: 100%;
         padding: 63px 16px;
     }
     section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch2 {

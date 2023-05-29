@@ -10,7 +10,7 @@
         display: inline-grid;
     }
     section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
-        width: 32%;
+        width: 85%;
         margin: 55px 0px;
         padding: 8px 12px;
     }

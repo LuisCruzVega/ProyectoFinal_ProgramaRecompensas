@@ -1,5 +1,59 @@
 @media (max-width: 640px){/*Honor x8 -- cel parado*/
-
+    section div.containerPartners, section nav.panelNavegacion{
+        display: none;
+    }
+    section main div.containerFormAll div#wantedList nav ul li {
+        font-size: 24.44px;
+        padding: 14px 50px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        display: inline-grid;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
+        width: 32%;
+        margin: 55px 0px;
+        padding: 8px 12px;
+    }
+    section main div.containerFormAll div#containerForm {
+        height: 720px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        padding: 63px 16px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch2 {
+        margin: 23px 0px;
+        padding: 8px 12px;
+        position: relative;
+        top: 34px;
+    }
+    section main div.containerFormAll div#containerForm form label#Crime{
+        padding: 0px 16px;
+        position: relative;
+        bottom: 59px;
+    }
+    section main div.containerFormAll div#containerForm form select {
+        margin: 23px 0px;
+        padding: 8px 12px;
+        width: 32%;
+    }
+    section main div.containerFormAll div#containerForm form select#Crime, section main div.containerFormAll div#containerForm form select#Sex {
+        width: 32%;
+    }
+    section main div.containerFormAll div#containerForm form input.Look-For {
+        width: 46%;
+        padding: 6px 5px;
+        font-size: 22.96px;
+        margin-right: 18px;
+        margin-top: -53px;
+    }
+    section footer div#containerFooterAll div.safePhrase p {
+        padding: 0px 16px;
+        width: 300px;
+    }
+    section footer div#containerFooterAll div.socialNetworks {
+        width: 48%;
+        left: 26%;
+    }
 }
 @media (max-width: 1080px) and (orientation: landscape) { /*Honor x8 -- cel hechado*/
 

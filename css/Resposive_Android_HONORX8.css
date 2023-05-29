@@ -35,10 +35,10 @@
     section main div.containerFormAll div#containerForm form select {
         margin: 23px 0px;
         padding: 8px 12px;
-        width: 32%;
+        width: 85%;
     }
     section main div.containerFormAll div#containerForm form select#Crime, section main div.containerFormAll div#containerForm form select#Sex {
-        width: 32%;
+        width: 85%;
     }
     section main div.containerFormAll div#containerForm form input.Look-For {
         width: 46%;

@@ -1,4 +1,4 @@
-@media (max-width: 640px){/*Honor x8 -- cel parado*/
+@media (max-width: 360px){/*Honor x8 -- cel parado*/
     section div.containerPartners, section nav.panelNavegacion{
         display: none;
     }

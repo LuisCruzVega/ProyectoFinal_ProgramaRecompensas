@@ -1,0 +1,87 @@
+@media (max-width: 767px){/*Cel parado*/
+    section div.containerPartners, section nav.panelNavegacion{
+        display: none;
+    }
+    section main div.containerFormAll div#wantedList nav ul li {
+        font-size: 24.575px;
+        padding: 26px 46px;
+    }
+    section main div.containerFormAll div#wantedList nav ul li {
+        font-size: 24.44px;
+        padding: 14px 50px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        display: inline-grid;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
+        width: 86%;
+        margin: 34px 0px;
+        padding: 8px 12px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        width: 91%;
+        padding: 57px 13px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch2 {
+        position: relative;
+        margin: 29px 0px;
+        top: 26px;
+    }
+    section main div.containerFormAll div#containerForm form label#Crime{
+        padding: 0px 16px;
+        position: relative;
+        bottom: 59px;
+    }
+    section main div.containerFormAll div#containerForm form select {
+        margin: 23px 0px;
+        padding: 8px 12px;
+        width: 85%;
+    }
+    section main div.containerFormAll div#containerForm form select#Crime, section main div.containerFormAll div#containerForm form select#Sex {
+        width: 85%; 
+    }
+    section main div.containerFormAll div#containerForm form input.Look-For {
+        width: 46%;
+        padding: 6px 5px;
+        font-size: 22.96px;
+        margin-right: 18px;
+        margin-top: -53px;
+    }
+    section main div.containerFormAll div#containerForm {
+        height: 677px;
+    }
+    section footer div#containerFooterAll div.safePhrase p {
+        padding: 0px 16px;
+        width: 300px;
+    }
+    section footer div#containerFooterAll div.socialNetworks {
+        width: 48%;
+        left: 26%;
+    }
+}
+@media (min-width:667px) and (max-width:767px){ /*Cel Hechado*/
+    section main div.containerFormAll {
+        width: 667px;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
+        width: 71%;
+        padding: 57px 13px;
+    }
+    section main div.containerFormAll div#containerForm form input.Look-For {
+        width: 28%;
+        padding: 6px 0px;
+        margin-right: 98px;
+    }
+    section footer div#containerFooterAll div.safePhrase p {
+        position: relative;
+        width: 89%;
+    }
+    section footer div#containerFooterAll div.safePhrase {
+        width: 100%;
+    }
+    section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
+        width: 85%;
+        margin: 34px 0px;
+        padding: 8px 12px;
+    }
+}

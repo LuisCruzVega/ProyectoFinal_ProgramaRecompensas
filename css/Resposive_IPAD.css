@@ -42,7 +42,7 @@
     }
     section main div.containerFormAll div#containerForm form label.SearchBy input.InputSearch {
         width: 27.8%;
-        margin: 0px 9px;
+        margin: 0px 22px;
         padding: 10px;
     }
     section main div.containerFormAll div#containerForm form select {
@@ -52,11 +52,13 @@
         margin-right: 16px;
     }
     section main div.containerFormAll div#containerForm form label.SearchBy, section main div.containerFormAll div#containerForm form label.placeOfRequisition {
-        padding: 57px 43px;
+        padding: 57px 0px;
+        width: 88%;
     }
     section main div.containerFormAll div#containerForm form label#Crime {
         padding: 22px 2px;
         margin-left: 40px;
+        width: 94%;
     }
     section main div.containerFormAll div#containerForm {
         height: 373px;
